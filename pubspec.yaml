@@ -1,5 +1,5 @@
 name: ps_player
-description: PS Player - Liquid Glass and Nothing OS inspired music player
+description: PS Player - Offline local storage music player
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  just_audio: ^0.9.40
+  on_audio_query: ^2.9.0
+  permission_handler: ^11.3.1
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
